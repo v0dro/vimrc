@@ -32,4 +32,4 @@ popd
 mv vim/build .
 
 echo "Change your $PATH like this:"
-echo "export $PATH=$ROOT_FOLDER/build/bin"
+echo "export \$PATH=\$PATH:$ROOT_FOLDER/build/bin"
