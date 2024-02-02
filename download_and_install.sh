@@ -31,5 +31,7 @@ popd
 
 mv vim/build .
 
-echo "Change your $PATH like this:"
+echo "Add this to your .bashrc:"
 echo "export \$PATH=\$PATH:$ROOT_FOLDER/build/bin"
+echo "export VIMRUNTIME=$ROOT_FOLDER/build/share/vim/vim91"
+echo "alias vi=\"vim -u .vim/.vimrc\""
