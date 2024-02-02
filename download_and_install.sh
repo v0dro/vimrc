@@ -30,6 +30,7 @@ pushd vim
 popd
 
 mv vim/build .
+cp .vim $HOME/
 
 echo "Add this to your .bashrc:"
 echo "export \$PATH=\$PATH:$ROOT_FOLDER/build/bin"
